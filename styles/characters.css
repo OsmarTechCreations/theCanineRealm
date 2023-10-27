@@ -1,0 +1,39 @@
+.characters {
+    min-height: 56vw;
+    padding-top: 30px;
+    background-image: url('../assets/heroBG2.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: #15202B;
+    display: flex; /* Added to stack children vertically */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+}
+
+.characters__text {
+    padding: 20px;
+    background-color: #0E1622;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 50px auto 0;
+    text-align: center;
+    opacity: 0.95;
+}
+
+.characters__title {
+    font-family: 'Tangerine', cursive;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #507DA5;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.characters__desc {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: #A9D0F5;
+    line-height: 1.6;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
