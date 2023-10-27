@@ -1,0 +1,30 @@
+.header {
+    min-height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(../assets/headerBG20.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+.header__title {
+    font-family: 'Tangerine', cursive;
+    font-size: 6em; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    color: #F8F8FF; 
+    margin: 0;
+    margin: 20vh auto 0;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* Media queries to handle different screen sizes */
+
+@media screen and (max-width: 480px) {
+    .header__title {
+        font-size: 3.5em;
+    }
+}
