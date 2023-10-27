@@ -3,9 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Canine Realm</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
-    
+    <div class="page">
+        <header class="header">
+            <nav class="nav">
+                <img src="assets//logo.png" alt="logo" class="logo" />
+                <ul class="nav__list">
+                    <li>
+                        <a class="nav__list-item" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav__list-item" href="#">Products</a>
+                    </li>
+                    <li>
+                        <a class="nav__list-item" href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a class="nav__list-item" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__text">
+                <h1 class="header__text-title">The Canine Realm</h1>
+                <p class="header__text-desc">Embark on Journeys of Whiskers and Wags</p>
+            </div>
+        </header>
+        <main>
+            <section class="about">
+                <div class="about__text">
+                    <h2 class="about__title">Embark on Epic Canine Adventures</h2>
+                    <p class="about__desc">Every legendary dog has a tale to wag, and within each tale lies an epic adventure worth howling about. From daring quests in distant lands to magical encounters under the moonlight, our fictional canine companions lead extraordinary lives beyond imagination.</p>
+                    <button class="about__btn">Explore</button>
+                </div>
+                <img class="about__img" src="assets/knight.png" alt="Knight Dog" />
+            </section>
+            <section class="characters">
+                <div class="characters__text">
+                    <h2 class="characters__title">The Remarkable Canines</h2>
+                    <p class="characters__desc">Discover the tales of these legendary pups</p>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card__overlay"></div>
+                        <div class="card__content">
+                            <p class="card__name">Astro</p>
+                            <button class="card__btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__overlay"></div>
+                        <div class="card__content">
+                            <p class="card__name">Blacktail</p>
+                            <button class="card__btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__overlay"></div>
+                        <div class="card__content">
+                            <p class="card__name">Count Dogula</p>
+                            <button class="card__btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__overlay"></div>
+                        <div class="card__content">
+                            <p class="card__name">Duchess</p>
+                            <button class="card__btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__overlay"></div>
+                        <div class="card__content">
+                            <p class="card__name">Merlin</p>
+                            <button class="card__btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__overlay"></div>
+                        <div class="card__content">
+                            <p class="card__name">Mighty Paw</p>
+                            <button class="card__btn">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact">
+                <div class="contact__content">
+                    <h2 class="contact__title">Digital Bark</h2>
+                    <p class="contact__desc">Share your thoughts with us.</p>
+                    <form class="form">
+                        <div class="form__group">
+                            <label class="form__label">Name:</label>
+                            <input type="text" class="form__input">
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label">Email:</label>
+                            <input type="text" class="form__input">
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label">Message:</label>
+                            <textarea rows="4" class="form-textarea"
+                            required></textarea>
+                        </div>
+                        <button class="form__btn" type="submit">Send</button>
+                    </form>
+                </div>
+                <img class="contact__img" src="assets/tailchaser.png" alt="Old West Dog" />
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__nav">
+                <h2 class="footer__logo">The <span class="footer__logo-accent"> Canine </span> Realm</h2>
+                <nav class="footer__links">
+                    <a href="#" class="footer__link">Home</a>
+                    <a href="#" class="footer__link">Products</a>
+                    <a href="#" class="footer__link">Products</a>
+                    <a href="#" class="footer__link">About Us</a>
+                    <a href="#" class="footer__link">Contact</a>
+                </nav>
+                <p class="footer__copyright">The Canine Realm © 2023</p>
+            </div>
+            <div class="footer__contact">
+                <h2 class="footer__contact-title">Contact Details</h2>
+                    <p class="footer__contact-address">123 Bark St. Canine City, Dogland</p>
+                    <p class="footer__contact-phone">+1.123.456.7890</p>
+                    <p class="footer__contact-email"><a href="mailto:woof@thecaninerealm.com" class="footer__link">woof@thecaninerealm.com</a></p>
+                </div>
+            </div>
+            <div class="footer__socials">
+                <p class="footer__socials-text">Find Us on Social Media</p>
+                <div class="footer__socials-links">
+                    <a href="#" class="footer__socials-link"><img class="footer__socials-img" src="assets/facebook.png" alt="Facebook Logo"></a>
+                    <a href="#" class="footer__socials-link"><img class="footer__socials-img" src="assets/twitter.png" alt="Twitter Logo"></a>
+                    <a href="#" class="footer__socials-link"><img class="footer__socials-img" src="assets/instagram.png" alt="Instagram Logo"></a>
+                    <a href="#" class="footer__socials-link"><img class="footer__socials-img" src="assets/pinterest.png" alt="Pinterest Logo"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
